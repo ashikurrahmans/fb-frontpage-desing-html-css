@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 85%;
+    margin: auto;
+}
+.header-area{
+    background: #3A5795;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: #fff;
+    padding: 10px 0;
+}
+.logo-area{
+    width: 30%;
+    float: left;
+}
+.login-area {
+    width: 70%;
+    overflow: hidden;
+}
+.login-area form{
+    float: right;
+}
+.login-area label, .login-area input{
+    display: block;
+    margin: 4px 0;
+}
+.login-area input[type="checkbox"]{
+    float: left;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+.login-area .left-area{
+    float: left;
+}
+.login-area .right-area{
+    overflow: hidden;
+    float: left;
+    margin-left: 10px;
+}
+.right-area a{
+    color: #c2c2c7;
+    text-decoration: none;
+}
+.button-area{
+    overflow: hidden;
+    padding: 20px 0px 0 10px;
+}
+/** Sign up Area **/
+.signup-area{
+    font-family: tahoma;
+    background-color: #E7EAF3;
+    padding-top: 20px;
+}
+.mobile-area{
+    float: left;
+    width: 50%;
+    background:url('images/background.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 300px;
+    margin-right: 12%;
+}
+.mobile-area .mobile{
+    margin-right: 20px;
+    float: left;
+}
+.mobile-description{
+    margin-left: 40px;
+    overflow: hidden;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+.mobile-description h3{
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+.mobile-description p{
+    margin: 0;
+    font-size: 12px;
+}
+.mobile-button{
+    margin-top: 50px;
+    float: right;
+    margin-right: 50px;
+}
+.mobile-button a{
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid black;
+    font-size: 12px;
+    color: #000;
+}
+.signup-form{
+    overflow: hidden;
+    width: 38%;
+}
+.signup-title h1{
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 36px;
+    margin:0;
+    margin-bottom: 5px;
+}
+.signup-title p{
+    margin: 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.signup-form input[type="text"], .signup-form input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid;
+    border-color: #c2c2c2;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.signup-form input[type="text"]:nth-child(1), .signup-form input[type="text"]:nth-child(2){
+    width: 48%;
+    overflow: hidden;
+}
+.signup-form input[type="text"]:nth-child(1){
+    float: left;
+}
+.signup-form input[type="text"]:nth-child(2){
+    margin-left: 4%;
+}
+.birthyear h3{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+    margin-bottom: 5px;
+}
+.birthyear select{
+    padding: 6px 3px;
+    margin-bottom: 4px;
+    border: 1px solid #2a2a2a;
+}
+.birthyear a{
+    font-size: 12px;
+    text-decoration: none;
+}
+.gender{
+    margin-top: 3px;
+}
+.gender label{
+    font-size: 14px;
+}
+.singup-button input{
+    background: linear-gradient(#83C46C, #598B45);
+    border: 2px solid #709862;
+    color: #FFFFFF;
+    font-family: tahoma;
+    font-size: 13px;
+    padding: 3px 70px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.singup-button input:hover{
+    background: linear-gradient(#598B45, #83C46C);
+}
+.cookie p{
+    margin: 15px 0;
+    font-size: 13px;
+}
+.under-hr{
+    font-size: 14px;
+}
+/*** Footer Area ***/
+.footer-area {
+    padding: 10px 0;
+}
+.footer-top {
+    overflow: hidden;
+}
+.footer-top ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.footer-top ul li {
+    float: left;
+    margin-right: 10px;
+}
+.footer-top ul li a {
+    color: #3A5795;
+    text-decoration: none;
+    font-size: 11px;
+}
+.footer-top ul li a:hover {
+    text-decoration: underline;
+}
+.footer-top ul li:last-child a {
+    background: #D5DAE8;
+    padding: 2px 5px;
+}
+.footer-top ul li:last-child a:hover {
+    background: #6D84B4;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-area hr {
+    border-top: 1px solid #CCCCCC;
+}
+.footer-bottom {
+    overflow: hidden;
+}
+.footer-bottom ul {
+    padding: 0;
+    list-style: none;
+    width: 90%;
+    margin: 0;
+}
+.footer-bottom ul li {
+    float: left;
+    width: 10%;
+}
+.footer-bottom ul li a {
+    color: #3A5795;
+    text-decoration: none;
+    font-size: 11px;
+}
+.footer-bottom ul li a:hover {
+    text-decoration: underline;
+}
+/** Copyright Area **/
+.copyright p {
+    font-size: 11px;
+    color: #666666;
+    margin-bottom: 0;
+}
+.copyright a {
+    color: #3A5795;
+    text-decoration: none;
+    font-size: 12px;
+}
+.copyright a:hover {
+    text-decoration: underline;
+}

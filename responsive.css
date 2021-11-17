@@ -1,0 +1,60 @@
+/** Header Area ***/
+
+
+
+@media all and (max-width:668px){
+    .logo-area{
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding-bottom: 8px;
+    } 
+    .login-area {
+        width: 450px;
+        margin: auto;
+        
+    } 
+
+}
+
+@media all and (max-width:500px){
+ .login-area form{
+     margin-right: 50px;
+ }
+
+}
+
+@media all and (max-width:440px){
+    .login-area form{
+        float: none;
+    }
+    .login-area .left-area{
+        float: none;
+    }
+    .login-area .right-area{
+        float: none;
+        margin: 0;
+    }
+ .login-area input[type="text"],
+ .login-area input[type="password"]{
+    width: 70%;
+
+    }
+
+}
+
+
+/** Sign Up Area **/
+
+@media all and (max-width:700px){
+    .mobile-area{
+        float: none;
+        width: 100%;
+    }
+    .signup-form{
+        width: 100%;
+    }
+
+}
+
+
